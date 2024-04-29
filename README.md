@@ -103,14 +103,28 @@ We will use a Docker Container for convenience, but you can also use a virtual m
    CONFIG_FIRMWARE_INCLUDE_OPENSSL_EC=y
    ```
 
-8. **Build Firmware**
+8. **Installing Themes**
+
+   Install a theme that you want.
+
+   ```shell
+   git clone --depth 1 -b main https://gitlab.com/hadzhioglu/padavan-themes.git themes
+   ```
+   ```shell
+   cp -r themes/common-theme themes/jquery.js padavan-fw/trunk/user/www/n56u_ribbon_fixed
+   ```
+   ```shell
+   cp -r themes/grey2-theme padavan-fw/trunk/user/www/n56u_ribbon_fixed
+   ```
+
+9. **Build Firmware**
 
    ```shell
    ./clear_tree.sh 
    ./build_firmware.sh
    ```
 
-9. **Copy firmware from container to Host**
+10. **Copy firmware from container to Host**
 
    ```shell
    for file in $(docker exec $(docker container ls -a | grep -e 'ubuntu:fw' | grep -e 'Up' | awk '{print $1}') sh -c "ls padavan-fw/trunk/images/*.trx"); do
