@@ -92,7 +92,7 @@ We will use a Docker Container for convenience, but you can also use a virtual m
 
    ```shell
    cd ../trunk
-   cp configs/templates/xiaomi/mi-mini.config .config
+   cp configs/templates/xiaomi/mi-r1c.config .config
    nano .config
    ```
 
