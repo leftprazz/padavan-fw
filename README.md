@@ -25,8 +25,6 @@ sudo apt install autoconf autoconf-archive automake autopoint bison build-essent
 ```
 [Automatic Padavan firmware builds using GitHub servers](https://github.com/leftprazz/padavan-builder-workflow)
 
-[Автоматическая сборка прошивки Padavan на серверах GitHub](https://github.com/shvchk/padavan-builder-workflow/blob/main/README.ru.md)
-
 ### Firmware management ###
 ```shell 
 Login details
