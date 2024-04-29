@@ -2,7 +2,6 @@
 *.deps
 *.orig
 *.rej
-*.pc
 *.lo
 *.o
 *.o.cmd
