@@ -11,9 +11,6 @@ Original Repository
 This project is based on the original Padavan firmware project available at:
 [https://gitlab.com/hadzhioglu/padavan-ng](https://gitlab.com/hadzhioglu/padavan-ng)
 
-Welcome to the padavan-fw project
-...
-
 
 ### Compilation Instructions ###
 
