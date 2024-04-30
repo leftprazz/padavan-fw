@@ -72,7 +72,6 @@ function initial(){
 		showhide_div('row_dhcp_strict_order', 0);
 		showhide_div('row_dhcp_stop_dns_rebind', 0);
 		showhide_div('row_dhcp_proxy_dnssec', 0);
-		showhide_div('row_dconf', 0);
 		showhide_div('row_dservers', 0);
 		showhide_div('row_dhcpconf', 0);
 		showhide_div('row_hosts', 0);
@@ -613,7 +612,7 @@ function changeBgColor(obj, num){
                                                 </select>
                                             </td>
                                         </tr>
-                                        <tr id="row_dconf">
+                                        <tr>
                                             <td colspan="2">
                                                 <a href="javascript:spoiler_toggle('spoiler_conf')"><span><#CustomConf#> "dnsmasq.conf"</span></a>
                                                 <div id="spoiler_conf" style="display:none;">
